@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Quicksand, sans-serif;
+  font-size: 40px;
+  max-width: 100%;
+  letter-spacing: 4px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 38px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: lightgoldenrodyellow;
+}
+
+.topnav-right {
+  float: right;
+  line-height: 24px;
+  font-size: 16px;
+  max-width: 100%;
+}
+
+.active {
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  max-width: 100%;
+}
+
+.h4 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-family: "PT_Sans_Narrow variant0", Tofu;
+  font-weight: 100;
+}
+
+.grid-container {
+  display: grid;
+  gap: 70px 80px;
+  grid-template-columns: auto auto auto;
+  background-color: #2195f300;
+  padding: 5px;
+}
+
+.flex-container2{
+ display: flex;
+ background: transparent; 
+}
+
+.flex-container2 >div {
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 0;
+}
+
+.flex-container3{
+ display: flex;
+ background: transparent; 
+ padding: 20px;
+ margin: 10px;
+}
+
+.flex-container3 >div {
+  float: right;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 0;
+}
+
+.flex-container4{
+ display: flex;
+ background: transparent; 
+}
+
+.flex-container4 >div {
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 0;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 18px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.pic-1 {
+  border-radius: 0;
+  width: 550px;
+}
+
+.pic-2 {
+  border-radius: 0;
+  width: 530px;
+}
+
+.pic-3 {
+  border-radius: 0;
+  width: 530px;
+}
+
+.h5 {
+  text-align: center;
+
+}
+
+.top-section {
+  padding: 5px;
+  margin: 5px;
+}
+.middle-section {
+  padding: 5px;
+  margin: 5px;
+}
+.bottom-section {
+  padding: 5px;
+  margin: 5px;
+}
+
+.p0 {
+  text-align: center;
+  font-family: "PT_Sans_Narrow variant0", Tofu;;
+  font-weight: 600;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(59, 59, 77);
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+  color: grey;
+}
+
+.grey {
+  color: grey;
+}
+
+.btn {
+  letter-spacing: 2px;
+  border: 1px solid;
+  margin-top: 50px;
+  margin-left: 700px;
+  margin-bottom: 50px;
+}
